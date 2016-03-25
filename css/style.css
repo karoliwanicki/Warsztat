@@ -9,6 +9,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+ /*GREY COLOR = #a6a6a6;*/
 header{
     font-family: ralewayregular;
      width: 100%;
@@ -226,7 +228,7 @@ width: 100%;
   border: 1px solid #c2c2a3;
   margin-top: 13px;
   margin-left: 14px;
-  background-color: #c2c2a3;
+  background-color: #8c8c8c
   }
 
 #circle_box2{
@@ -286,7 +288,7 @@ border-radius: 50%;
 border: 1px solid #c2c2a3;
 margin-top: 13px;
 margin-left: 14px;
-background-color: #c2c2a3;
+background-color: #8c8c8c;
 }
 #plan1{
   vertical-align: middle;
@@ -328,7 +330,7 @@ background-color: #c2c2a3;
   vertical-align: middle;
   width: 120px;
   height: 120px;
-  border: 3px solid #c2c2a3;
+  border: 3px solid #8c8c8c;
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 85px;
@@ -339,13 +341,13 @@ background-color: #c2c2a3;
 }
 #big_circle1 #kolo1{
   font-family: ralewayregular;
-  color: #c2c2a3;
+  color: #8c8c8c;
   font-weight: bold;
   font-size: 40px;
 }
 #big_circle1 #pod_kolem1{
   font-family: ralewayregular;
-  color: #c2c2a3;
+  color: #8c8c8c;
   font-weight: bold;
   font-size: 18px;
 }
@@ -381,7 +383,7 @@ background-color: #c2c2a3;
   vertical-align: middle;
   width: 120px;
   height: 120px;
-  border: 3px solid #c2c2a3;
+  border: 3px solid #8c8c8c;
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 85px;
@@ -392,13 +394,13 @@ background-color: #c2c2a3;
 }
 #big_circle3 #kolo3{
   font-family: ralewayregular;
-  color: #c2c2a3;
+  color: #8c8c8c;
   font-weight: bold;
   font-size: 40px;
 }
 #big_circle3 #pod_kolem3{
   font-family: ralewayregular;
-  color: #c2c2a3;
+  color: #8c8c8c;
   font-weight: bold;
   font-size: 18px;
 }
@@ -407,7 +409,7 @@ background-color: #c2c2a3;
   height: 35px;
   vertical-align: middle;
   font-weight: bold;
-  color: #7a7a52;
+  color: #8c8c8c;
   font-family: ralewayregular;
   padding-top: 5px;
   text-align: center;
@@ -415,33 +417,33 @@ background-color: #c2c2a3;
 }
 #longbox1{
 margin-top: 25px;
-background-color: #e6e6e6
+background-color: #e6e6e6;
 }
 #longbox2{
-background-color: #e0e0d1;
+background-color: white;
 }
 #longbox3{
 margin-top: 25px;
-background-color: #e6e6e6
+background-color: white;
 }
 #longbox4{
-background-color: #ccccb3;
+background-color: #e6e6e6;
 }
 #longbox5{
-background-color: #e0e0d1;
+background-color: white;
 }
 #longbox6{
 margin-top: 25px;
 background-color: #e6e6e6
 }
 #longbox7{
-background-color: #e0e0d1;
+background-color: white;
 }
 #longbox8{
-background-color: #ccccb3;
+background-color: #e6e6e6;
 }
 #longbox9{
-background-color: #e0e0d1;
+background-color: white;
 }
 #button1, #button2, #button3{
   vertical-align: bottom;
@@ -485,14 +487,14 @@ width: 100%;
   width: 100%;
   height: 50px;
   font-family: ralewayregular;
-  color: #c2c2a3;
+  color: #a6a6a6;
   font-size: 20px;
 }
 #email{
   width: 50%;
   height: 50px;
   font-family: ralewayregular;
-  color: #c2c2a3;
+  color: #a6a6a6;
   font-size: 20px;
 }
 .form_message{
@@ -504,7 +506,7 @@ width: 100%;
   height: 200px;
   font-family: ralewayregular;
   padding-bottom: 160px;
-  color: #c2c2a3;
+  color: #a6a6a6;
   font-size: 20px;
 }
 .copy_right{
@@ -512,7 +514,7 @@ width: 100%;
   width: 50%;
   height: 50px;
   margin-top: 150px;
-  color: #c2c2a3;
+  color: #a6a6a6;
 }
 .right_side{
   float: right;
@@ -535,17 +537,17 @@ width: 100%;
   margin-left: 130px;
   margin-top: 30px;
 }
-  .form_tick img{
-    padding-left: 5px;
-    padding-top: 5px;
-    width: 48px;
-    height: 40px;
+.form_tick img{
+  padding-left: 5px;
+  padding-top: 5px;
+  width: 48px;
+  height: 40px;
 }
 #text_tick{
   padding-left: 5px;
   text-align: left;
   display:inline-block;
-  color: #c2c2a3;
+  color: #a6a6a6;
 
 }
 .right_side_button{
@@ -554,8 +556,8 @@ width: 100%;
   margin-left: 140px;
   margin-top: 30px;
   border-radius: 5px;
-  border: 1px solid #66ffc2;
-  background-color: #66ffc2;
+  border: 1px solid #00cc88;
+  background-color: #00cc88;
   text-align: center;
   font-family: ralewayregular;
   font-weight: bold;
@@ -576,5 +578,5 @@ width: 100%;
   height: 100%;
   padding-top: 5px;
   margin-right: 50px;
-  color: #c2c2a3;
+  color: #a6a6a6;
 }
