@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function(){
   for(var i = 0; i<listItem.length; i++){
     listItem[i].addEventListener('mouseover', function(event){
      if(this.children.length !== 0 ){
-       this.children[0].style.display = "block"
+       this.children[0].style.display = "block";
      }
   });
 };
 for(var i = 0; i<listItem.length; i++){
   listItem[i].addEventListener('mouseout', function(event){
    if(this.children.length !== 0 ){
-     this.children[0].style.display = "none"
+     this.children[0].style.display = "none";
    }
  });
 };
