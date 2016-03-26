@@ -33,17 +33,16 @@ header{
   color: #00cc88;
 }
 .nav{
+    margin-top:10px;
     float:right;
-    font-size:30px;
     width:200px;
+    font-size: 14px;
 }
 
 .nav ul li{
   display: inline-block;
   font-size: 12px;
   position: relative;
-  z-index: 2;
-  border: 1px solid inherit;
 }
 .nav>ul>li>ul{
   display: none;
@@ -54,7 +53,7 @@ header{
   position: absolute;
   margin-top: 15px;
   width: 200%;
-  height: 80px;
+  height: 100px;
   background-color: black;
   color: white;
   text-align: left;
@@ -62,7 +61,6 @@ header{
   padding-top: 5px;
   font-family: ralewayregular;
   line-height: 22px;
-  font-weight: bold;
 
 }
 #dropDown2{
@@ -79,21 +77,6 @@ header{
   line-height: 22px;
   font-weight: bold;
 }
-#dropDown3{
-  position: absolute;
-  margin-top: 15px;
-  width: 230%;
-  height: 60px;
-  background-color: black;
-  color: white;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 5px;
-  font-family: ralewayregular;
-  line-height: 22px;
-  font-weight: bold;
-}
-
 .section1{
   font-family: ralewayregular;
   margin: 10px 0;
