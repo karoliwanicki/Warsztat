@@ -24,6 +24,26 @@ document.addEventListener("DOMContentLoaded", function(){
     this.style.display = "block";
   });
 
+  //dropDown menu
+
+  var listItem = document.querySelectorAll('.nav > ul > li');
+
+  for(var i = 0; i<listItem.length; i++){
+    listItem[i].addEventListener('mouseover', function(event){
+     if(this.children.length !== 0 ){
+       this.children[0].style.display = "block"
+     }
+  });
+};
+for(var i = 0; i<listItem.length; i++){
+  listItem[i].addEventListener('mouseout', function(event){
+   if(this.children.length !== 0 ){
+     this.children[0].style.display = "none"
+   }
+ });
+};
+
+
 
 
 
