@@ -14,30 +14,30 @@
  /*Dark grey = #8c8c8c*/
  /*green color = #00cc88;*/
 header{
-    font-family: ralewayregular;
-     width: 100%;
-     height:40px;
-     background-color: black;
-     color:white;
+  font-family: ralewayregular;
+  width: 100%;
+  height:40px;
+  background-color: black;
+  color:white;
  }
 .main_width{
-    width: 930px;
-    margin:0 auto;
+  width: 930px;
+  margin:0 auto;
 }
 .header__logo{
-    float:left;
-    font-size:20px;
-    margin-top:10px;
-    font-weight: bold;
+  float:left;
+  font-size:20px;
+  margin-top:10px;
+  font-weight: bold;
 }
 .header__logo span{
   color: #00cc88;
 }
 .nav{
-    margin-top:10px;
-    float:right;
-    width:200px;
-    font-size: 14px;
+  margin-top:10px;
+  float:right;
+  width:200px;
+  font-size: 14px;
 }
 
 .nav ul li{
@@ -176,34 +176,34 @@ header{
   outline:none;
 }
 .section2{
-font-family: ralewayregular;
-height: 400px;
-width: 100%;
+ font-family: ralewayregular;
+ height: 400px;
+ width: 100%;
 }
 .section2_box1{
-  display: inline-block;
-  vertical-align: middle;
-  font-family: ralewayregular;
-  width: 300px;
-  height: 250px;
-  background-image: url("../images/box1_img.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+ display: inline-block;
+ vertical-align: middle;
+ font-family: ralewayregular;
+ width: 300px;
+ height: 250px;
+ background-image: url("../images/box1_img.jpg");
+ background-position: center center;
+ background-repeat: no-repeat;
 }
 .section2_box1 #txt_box1{
-  display: block;
-  margin-top: 180px;
-  width: 100%;
-  height: 60px;
-  padding-left: 10px;
-  font-family: ralewayregular;
-  background-color: rgba(255, 255, 255, 0.3);
+ display: block;
+ margin-top: 180px;
+ width: 100%;
+ height: 60px;
+ padding-left: 10px;
+ font-family: ralewayregular;
+ background-color: rgba(255, 255, 255, 0.3);
 }
 .hr_short{
-  width: 50%;
-  margin-top: 5px;
-  border-width:8px;
-  border-color: #00cc88;
+ width: 50%;
+ margin-top: 5px;
+ border-width:8px;
+ border-color: #00cc88;
 }
 .section2_box2{
   display: inline-block;
