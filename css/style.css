@@ -12,6 +12,7 @@
 
  /*GREY COLOR = #a6a6a6;*/
  /*Dark grey = #8c8c8c*/
+ /*green color = #00cc88;*/
 header{
     font-family: ralewayregular;
      width: 100%;
@@ -53,7 +54,7 @@ header{
   position: absolute;
   margin-top: 15px;
   width: 200%;
-  height: 100px;
+  height: 80px;
   background-color: black;
   color: white;
   text-align: left;
@@ -563,15 +564,48 @@ width: 100%;
   width: 50%;
   height: 600px;
 }
-.red_chair{
+.slider{
   width: 50%;
   vertical-align: top;
   height: 210px;
   margin-top: 30px;
   margin-left: 130px;
-  background-image: url("../images/red_chair.png");
+  /*background-image: url("../images/red_chair.png");*/
   background-position: center center;
   background-repeat: no-repeat;
+}
+.slider ul{
+  list-style: none;
+}
+.slider li{
+  display: none;
+}
+.slider .visible{
+  display: inline-block;
+}
+#nextPicture{
+  float: right;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+#prevPicture{
+  float: left;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.slider>button>span{
+  font-size: 30px;
+  font-family: ralewayregular;
+  color: #00cc88;
+  font-weight: bolder;
 }
 .form_tick{
   width: 100%;
