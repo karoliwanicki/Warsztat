@@ -43,7 +43,37 @@ for(var i = 0; i<listItem.length; i++){
  });
 };
 
-//slider
+//big slider section1
+
+var bigGallery = document.querySelector('.section1_gallery');
+var galleryList = document.querySelectorAll('.section1_gallery li');
+var forward = document.querySelector('#section1_right');
+var previous = document.querySelector('#section1_left');
+var activePicIndex2 = 0;
+
+galleryList[activePicIndex2].classList.add('visible');
+
+forward.addEventListener('click', function(event){
+  galleryList[activePicIndex2].classList.remove('visible');
+  activePicIndex2++;
+
+  if(activePicIndex2 >= galleryList.length){
+    activePicIndex2 = 0;
+  }
+  galleryList[activePicIndex2].classList.add('visible');
+});
+
+previous.addEventListener('click', function(event){
+  galleryList[activePicIndex2].classList.remove('visible');
+  activePicIndex2--;
+
+  if(activePicIndex2 < 0 ){
+    activePicIndex2 = galleryList.length - 1;
+  }
+  galleryList[activePicIndex2].classList.add('visible');
+});
+
+// maly slider na dole
 
 var sliderBox = document.querySelector('.slider');
 var imgList = document.querySelectorAll('.slider li');
@@ -73,6 +103,7 @@ prevButton.addEventListener('click', function(event){
   }
   imgList[activePicIndex].classList.add('visible');
 });
+
 
 
 
